@@ -23,18 +23,16 @@
   padding: 1.5rem 4.375rem;
   border-radius: 5px;
 }
-
 .btn.primary {
   background-color: #02250A;
   color: white;
 }
-
 .btn.white {
   background-color: white;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
 }
 
@@ -42,114 +40,234 @@ body {
   height: 811px;
   position: relative;
 }
-
 .hero header {
   z-index: 1;
 }
-
 .hero header .items {
   display: flex;
   color: white;
   width: 50%;
   justify-content: space-between;
 }
-
 .hero header .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .hero header .nav .logo {
   width: 11.8125rem;
 }
-
 .hero header .nav .logo img {
   width: 100%;
 }
-
 .hero header .nav-list {
   list-style: none;
   display: flex;
   margin: 0;
   box-sizing: border-box;
 }
-
 .hero header .nav-list .nav-item {
   margin-inline: 1rem;
 }
-
 .hero header .nav-list .nav-item .nav-link {
   text-decoration: none;
   color: inherit;
 }
-
 .hero .banner {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: -1;
 }
-
 .hero .banner_inner {
   display: flex;
   height: 700px;
 }
-
 .hero .banner_inner .left {
   flex: 1;
   display: flex;
   align-items: center;
 }
-
 .hero .banner_inner .left_wrapper {
   height: 70%;
   width: 100%;
 }
-
 .hero .banner_inner .left_wrapper-container {
   width: 548px;
   position: relative;
 }
-
 .hero .banner_inner .left_wrapper-container p {
   font-size: 3rem;
   font-weight: 900;
   line-height: 58.09px;
 }
-
 .hero .banner_inner .left_wrapper-container .arrow-curve {
   position: absolute;
   right: 30%;
   bottom: 10%;
 }
-
 .hero .banner_inner .right {
   background: #02250A;
   flex: 1;
   display: flex;
   align-items: center;
 }
-
 .hero .banner_inner .right_wrapper {
   height: 70%;
   width: 100%;
   position: relative;
 }
-
 .hero .banner_inner .right_wrapper img {
   width: 100%;
 }
-
 .hero .banner_inner .right_wrapper .image-1 {
   width: 466px;
   position: absolute;
   left: -7%;
 }
-
 .hero .banner_inner .right_wrapper .image-2 {
   width: 359px;
   position: absolute;
   bottom: 0;
   right: 134px;
 }
+
+.hero2 {
+  height: 811px;
+  position: relative;
+  padding: 20px;
+}
+.hero2 .hero2_inner {
+  display: flex;
+}
+.hero2 .hero2_inner .inner_image {
+  margin: 40px;
+}
+.hero2 .hero2_inner .inner_image .background .green_background {
+  height: 635px;
+  width: 552px;
+  background-color: #02250A;
+  position: absolute;
+  z-index: -1;
+}
+.hero2 .hero2_inner .inner_image img {
+  height: 635px;
+  width: 552px;
+  z-index: 1;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.hero2 .hero2_inner .inner_image .play {
+  width: 118px;
+  height: 118px;
+  z-index: 2;
+  left: 250px;
+  top: 290px;
+  position: absolute;
+}
+.hero2 .hero2_inner .inner_text {
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.hero2 .hero2_inner .inner_text h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 58.09px;
+  padding-bottom: 10px;
+}
+.hero2 .hero2_inner .inner_text p {
+  padding-top: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hero3 {
+  background-color: #02250A;
+}
+.hero3 .hero3_head {
+  color: #fff;
+  margin: 30px;
+}
+.hero3 .hero3_head h1 {
+  font-weight: 700;
+  line-height: 58.09px;
+}
+.hero3 .hero3_head .blank {
+  background-color: #fff;
+  border-bottom: 5px solid #fff;
+  width: 70px;
+  margin-top: -30px;
+}
+.hero3 .boxes {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  margin: 20px;
+}
+.hero3 .boxes .boxes_content {
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 5px;
+  margin: 20px;
+}
+.hero3 .boxes .boxes_content .box_content {
+  padding: 5px;
+}
+.hero3 .boxes .boxes_content .box_content img {
+  position: relative;
+}
+.hero3 .boxes .boxes_content .box_content .date_boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.hero3 .boxes .boxes_content .box_content .date_boxes p {
+  color: #045216;
+}
+.hero3 .boxes .boxes_content .box_content .date_boxes .date {
+  font-size: 13px;
+  margin-left: 40px;
+  color: grey;
+}
+.hero3 .boxes .boxes_content .box_content p {
+  font-size: 15px;
+  text-align: justify;
+}
+.hero3 .boxes .boxes_content .box_content .big_p {
+  color: rgba(2, 54, 2, 0.87);
+}
+.hero3 .primary {
+  background-color: #fff;
+  color: black;
+  margin-left: 42%;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.hero_4 {
+  margin: 30px;
+}
+.hero_4 p {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+.hero_4 .hero4_images {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #02250A;
+  text-align: center;
+  color: #fff;
+  height: 50px;
+}
+footer p {
+  padding-top: 20px;
+}
+footer p span {
+  font-weight: bold;
+  margin-left: 3px;
+}/*# sourceMappingURL=index.css.map */
